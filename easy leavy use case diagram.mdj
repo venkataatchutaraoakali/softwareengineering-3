@@ -18,7 +18,58 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Main",
-					"defaultDiagram": true
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "HyperlinkView",
+							"_id": "AAAAAAGMJsq3SLx3HgY=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGMJsq3R7x1V74="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGMJsq3SLx4UvM=",
+									"_parent": {
+										"$ref": "AAAAAAGMJsq3SLx3HgY="
+									},
+									"font": "Arial;13;0",
+									"left": 152,
+									"top": 45,
+									"width": 170,
+									"height": 13,
+									"text": "Easy leave use case diagram"
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGMJsq3SLx5/Bw=",
+									"_parent": {
+										"$ref": "AAAAAAGMJsq3SLx3HgY="
+									},
+									"font": "Arial;13;1",
+									"left": 119,
+									"top": 45,
+									"width": 24,
+									"height": 13,
+									"text": "link"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 114,
+							"top": 40,
+							"width": 214,
+							"height": 23,
+							"nameLabel": {
+								"$ref": "AAAAAAGMJsq3SLx4UvM="
+							},
+							"typeLabel": {
+								"$ref": "AAAAAAGMJsq3SLx5/Bw="
+							}
+						}
+					]
 				},
 				{
 					"_type": "Hyperlink",
@@ -27,6 +78,17 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Hyperlink1",
+					"reference": {
+						"$ref": "AAAAAAGMACDLLIK3gU4="
+					}
+				},
+				{
+					"_type": "Hyperlink",
+					"_id": "AAAAAAGMJsq3R7x1V74=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Hyperlink2",
 					"reference": {
 						"$ref": "AAAAAAGMACDLLIK3gU4="
 					}

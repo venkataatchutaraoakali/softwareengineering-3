@@ -18,7 +18,69 @@
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
 					"name": "Main",
-					"defaultDiagram": true
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "HyperlinkView",
+							"_id": "AAAAAAGMJsuY+j0/7hU=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAGMJsuY+T0972E="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGMJsuY+j1Aa0s=",
+									"_parent": {
+										"$ref": "AAAAAAGMJsuY+j0/7hU="
+									},
+									"font": "Arial;13;0",
+									"left": 106,
+									"top": 46,
+									"width": 124,
+									"height": 13,
+									"text": "Easy leave use case "
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGMJsuY+j1Bm0U=",
+									"_parent": {
+										"$ref": "AAAAAAGMJsuY+j0/7hU="
+									},
+									"font": "Arial;13;1",
+									"left": 73,
+									"top": 46,
+									"width": 24,
+									"height": 13,
+									"text": "link"
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 68,
+							"top": 41,
+							"width": 168,
+							"height": 23,
+							"nameLabel": {
+								"$ref": "AAAAAAGMJsuY+j1Aa0s="
+							},
+							"typeLabel": {
+								"$ref": "AAAAAAGMJsuY+j1Bm0U="
+							}
+						}
+					]
+				},
+				{
+					"_type": "Hyperlink",
+					"_id": "AAAAAAGMJsuY+T0972E=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Hyperlink1",
+					"reference": {
+						"$ref": "AAAAAAGK34v5mUM9MuQ="
+					}
 				}
 			]
 		},
